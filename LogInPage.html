@@ -1,0 +1,45 @@
+<html>
+    <meta charset ="UTF-8"/> 
+    <head>
+        <title>LogIn</title>
+    </head>
+    <style>
+        .pos
+        {
+            margin: 0;
+            position: absolute;
+            top: 40%;
+            left: 40%;
+            transform: translate(-50%, -50%);
+        }
+
+        #submitButton
+        {
+            height: 50px;
+            width: 150px;
+            overflow: hidden;
+            font-size: 20px;
+            background-color: blue;
+            border-color: white #d4ebfc #d4ebfc white;
+            border-width: 3px;
+            color: white;
+            position: fixed;
+       }
+
+    </style>
+
+    <body>
+        <img  class="pos" src="images/facebook.png" >
+        <form   action="FaceBookPage.php" method="get" class="pos" style="left: 60%;">
+            Username:
+            <br>
+            <input id="inputBox" type="text" name="username">
+            <br>
+            Password:
+            <br>
+            <input id="inputBox" type="text" name="password">
+            <br><br>
+            <input id="submitButton" type="submit" value="Log In">    
+            </form>
+    </body>
+</html>
